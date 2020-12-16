@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap')
+
+$font-abril: 'Abril Fatface', cursive
+$card-background-color: #1d1d1d
+$input-background-color:#bdbdbd
+.glass
+  background-color: transparent !important
+  box-shadow: 0.3rem 0.3rem 0.7rem 0 rgba(0, 0, 0, 0.2)
+  background: inherit
+  z-index: 2
+  overflow: hidden
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    box-shadow: inset 50px 100px 300px rgba(255, 255, 255, 1)
+    filter: blur(1px)
+    background: inherit
+    margin: -20px
+    z-index: -99
+
+.dark-bg-link
+  font-size: 13px
+  color: #eeeeee
+
+  &:hover
+    color: #ffffff
+  &:active
+    color: #c7ffb9
+.abril-font
+  font-family: $font-abril
+@import "../node_modules/bulma/bulma.sass"
+@import url('https://cdnjs.com/libraries/bodymovin')
+// Import component
+//@import "~bulma-carousel/dist/css/bulma-carousel.min.css"
