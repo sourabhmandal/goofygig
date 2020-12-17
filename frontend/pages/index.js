@@ -1,4 +1,3 @@
-import Layout from "../Components/Layout";
 import Hero from "../Components/Hero";
 import HeroTwo from "../Components/HeroTwo";
 import Footer from "../Components/Footer";
@@ -8,38 +7,39 @@ import ServiceCard from "../Components/ServiceCard";
 import MoreButton from "../Components/MoreButton";
 import Stats from "../Components/Stats";
 import Carousel from "../Components/Carousel";
+import Navabar from "../Components/Navbar";
 
 export default function Home() {
   return (
     <div className=" has-background-light">
-      <Layout />
+      <Navabar />
       <Hero />
       <SectionTitle />
 
       <div className="container p-4">
-        <div class="columns is-multiline p-5">
-          <div class="column is-one-quarter p-1">
+        <div className="columns is-multiline p-5">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1">
+          <div className="column is-one-quarter p-1">
             <ServiceCard />
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
       <MoreButton />
 
       <div className="container mb-5 has-text-centered">
-        <div class="columns mx-5 px-5">
+        <div className="columns mx-5 px-5">
           <Stats />
           <Stats />
           <Stats />
@@ -58,17 +58,17 @@ export default function Home() {
       <HeroTwo />
       <SectionTitle />
       <div className="container is-fullwidth">
-        <div class="columns is-centered is-multiline p-5">
-          <div class="column is-one-quarter p-1  has-text-centered has-image-centered">
+        <div className="columns is-centered is-multiline p-5">
+          <div className="column is-one-quarter p-1  has-text-centered has-image-centered">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1  has-text-centered has-image-centered">
+          <div className="column is-one-quarter p-1  has-text-centered has-image-centered">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1  has-text-centered has-image-centered">
+          <div className="column is-one-quarter p-1  has-text-centered has-image-centered">
             <ServiceCard />
           </div>
-          <div class="column is-one-quarter p-1  has-text-centered has-image-centered">
+          <div className="column is-one-quarter p-1  has-text-centered has-image-centered">
             <ServiceCard />
           </div>
         </div>
@@ -81,9 +81,9 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <div class="container">
-        <div class="columns">
-          <div class="column">
+      <div className="container">
+        <div className="columns">
+          <div className="column">
             <Cards />
           </div>
         </div>

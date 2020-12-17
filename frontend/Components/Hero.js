@@ -17,34 +17,36 @@ export default function Hero() {
 
   return (
     <>
-      <section class="hero has-background-white">
-        <div class="hero-body">
-          <div class="container">
+      <section className="hero has-background-white">
+        <div className="hero-body  p-0 m-0">
+          <div className="container">
             <div className="columns">
-              <div className="column is-two-fifths">
+              <div className="column is-two-fifths m-5">
                 <h1
-                  class="title abril-font is-capitalized "
+                  className="title abril-font is-capitalized "
                   style={{ fontSize: "4rem" }}
                 >
-                  Looking for part-time or project based talent
+                  Boost you LinkedIn profile with our Marketing Techniques
                 </h1>
-                <h2 class="subtitle is-capitalized is-size-4 pt-6">
+                <h2 className="subtitle is-capitalized is-size-4 pt-6">
                   Choose your direction and lets start
                 </h2>
                 <div className="buttons block">
-                  <button class="button is-success" style={{ width: "12rem" }}>
+                  <button
+                    className="button is-success"
+                    style={{ width: "12rem" }}
+                  >
                     Success
                   </button>
-                  <button class="button is-danger" style={{ width: "12rem" }}>
+                  <button
+                    className="button is-danger"
+                    style={{ width: "12rem" }}
+                  >
                     Danger
                   </button>
                 </div>
               </div>
-              <div
-                className="column is-three-fifths  has-text-right"
-                ref={growth_container}
-                style={{ width: "70%" }}
-              ></div>
+              <div className="column p-0" ref={growth_container}></div>
             </div>
           </div>
         </div>

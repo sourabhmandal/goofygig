@@ -4,41 +4,46 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-        <footer class="footer has-background-dark mt-5">
-          <div class="container">
-            <div class="columns">
+        <footer className="footer has-background-dark mt-5">
+          <div className="container">
+            <div className="columns">
               <FooterColumn />
               <FooterColumn />
               <FooterColumn />
               <FooterColumn />
-              <div class="column is-two-fifths">
-                <strong class="has-text-grey-light is-uppercase is-size-6">
+              <div className="column is-two-fifths">
+                <strong className="has-text-grey-light is-uppercase is-size-6">
                   Keep Up to date
                 </strong>
-                <h4 class="title is-4 has-text-grey-light mt-2">
+                <h4 className="title is-4 has-text-grey-light mt-2">
                   Join Our Community
                   <br />
                   Subscribe to our newsletter
                 </h4>
 
-                <div class="field">
-                  <div class="control">
+                <div className="field">
+                  <div className="control">
                     <p>
                       <input
-                        class="input is-danger is-left mr-2"
+                        className="input is-danger is-left mr-2"
                         style={{ width: "70%" }}
                         type="text"
                         placeholder="Email"
                       />
-                      <button class="button is-danger is-right">Button</button>
+                      <button className="button is-danger is-right">
+                        Button
+                      </button>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <hr class="has-text-grey" style={{ borderBottom: "2px solid" }} />
-            <div class="columns">
-              <div class="column has-text-grey-light">
+            <hr
+              className="has-text-grey"
+              style={{ borderBottom: "2px solid" }}
+            />
+            <div className="columns">
+              <div className="column has-text-grey-light">
                 <a href="#" className="dark-bg-link mr-3">
                   Terms of Service
                 </a>
@@ -48,19 +53,19 @@ export default class Footer extends Component {
                 <a href="#" className="dark-bg-link mr-3">
                   Cookies
                 </a>
-                <p class="dark-bg-link is-capitalized">
+                <p className="dark-bg-link is-capitalized">
                   copyright @SourabhMandal All rights reseved
                 </p>
               </div>
-              <div class="column justify-end has-text-right">
+              <div className="column justify-end has-text-right">
                 <button
-                  class="button is-light is-right m-1"
+                  className="button is-light is-right m-1"
                   style={{ width: "8rem" }}
                 >
                   Log In
                 </button>
                 <button
-                  class="button is-warning is-right m-1"
+                  className="button is-warning is-right m-1"
                   style={{ width: "8rem" }}
                 >
                   Sign Up
@@ -76,32 +81,32 @@ export default class Footer extends Component {
 class FooterColumn extends Component {
   render() {
     return (
-      <div class="column">
-        <strong class="has-text-grey-light is-uppercase is-size-6">
+      <div className="column">
+        <strong className="has-text-grey-light is-uppercase is-size-6">
           company
         </strong>
         <p>
-          <a href="#" class="dark-bg-link">
+          <a href="#" className="dark-bg-link">
             About Us
           </a>
         </p>
         <p>
-          <a href="#" class="dark-bg-link">
+          <a href="#" className="dark-bg-link">
             Invetor Relations
           </a>
         </p>
         <p>
-          <a href="#" class="dark-bg-link">
+          <a href="#" className="dark-bg-link">
             Careers
           </a>
         </p>
         <p>
-          <a href="#" class="dark-bg-link">
+          <a href="#" className="dark-bg-link">
             Press
           </a>
         </p>
         <p>
-          <a href="#" class="dark-bg-link">
+          <a href="#" className="dark-bg-link">
             Accesibility
           </a>
         </p>

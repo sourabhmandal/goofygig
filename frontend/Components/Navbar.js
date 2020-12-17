@@ -6,9 +6,13 @@ const Navabar = () => {
       <div className="has-background-white column is-fullwidth is-gapless p-0">
         <nav className="level" role="navigation" aria-label="main navigation">
           <div className="navbar-brand level-left">
-            <a className="level-item navbar-item" href="https://bulma.io">
+            <a
+              className="level-item navbar-item"
+              href="https://bulma.io/images/placeholders/48x48.png"
+            >
               <img
-                src="https://bulma.io/images/bulma-logo.png"
+                className="image is-32x32"
+                src="https://bulma.io/images/placeholders/32x32.png"
                 width="112"
                 height="28"
               />
@@ -30,20 +34,9 @@ const Navabar = () => {
           <div id="navbarBasicExample level-right" className="navbar-menu">
             <div className="navbar-end">
               <a className="navbar-item level-item">Home</a>
-
-              <a className="navbar-item level-item">Documentation</a>
-
-              <div className="navbar-item has-dropdown is-hoverable">
-                <a className="navbar-link level-item">More</a>
-
-                <div className="navbar-dropdown level-item">
-                  <a className="navbar-item">About</a>
-                  <a className="navbar-item">Jobs</a>
-                  <a className="navbar-item">Contact</a>
-                  <hr className="navbar-divider" />
-                  <a className="navbar-item">Report an issue</a>
-                </div>
-              </div>
+              <a className="navbar-item level-item">My Services</a>
+              <a className="navbar-item level-item">About Me</a>
+              <a className="navbar-item level-item">Contact Me</a>
 
               <div className="navbar-end level-item">
                 <div className="navbar-item">
