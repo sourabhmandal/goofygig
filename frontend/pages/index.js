@@ -6,7 +6,6 @@ import Cards from "../Components/Cards";
 import ServiceCard from "../Components/ServiceCard";
 import MoreButton from "../Components/MoreButton";
 import Stats from "../Components/Stats";
-import Carousel from "../Components/Carousel";
 import Navabar from "../Components/Navbar";
 
 export default function Home() {

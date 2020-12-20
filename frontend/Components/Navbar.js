@@ -34,15 +34,15 @@ const Navabar = () => {
           <div id="navbarBasicExample level-right" className="navbar-menu">
             <div className="navbar-end">
               <a className="navbar-item level-item">Home</a>
-              <a className="navbar-item level-item">My Services</a>
+              <a className="navbar-item level-item">Blog</a>
               <a className="navbar-item level-item">About Me</a>
-              <a className="navbar-item level-item">Contact Me</a>
+              <a className="navbar-item level-item"></a>
 
               <div className="navbar-end level-item">
                 <div className="navbar-item">
                   <div className="buttons">
                     <a className="button is-primary">
-                      <strong>Sign up</strong>
+                      <strong>Contact Me</strong>
                     </a>
                     <a className="button is-light">Log in</a>
                   </div>

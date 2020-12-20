@@ -13,6 +13,12 @@ from wagtail.images.blocks import ImageChooserBlock
 class HomePage(Page):
     max_count = 1
 
+    subpage_types = [
+        'about.AboutPage',
+        'blog.BlogListPage',
+        'contact.ContactPage',
+    ]
+
     # =======================STRUCTS===================================================
     member_card = blocks.StructBlock(
         [
@@ -67,15 +73,14 @@ class HomePage(Page):
         ]
     )
 
-    features = blocks.StructBlock(
-        [
-            ("Feature_icon", ImageChooserBlock(
-                required=False, blank=True, null=True)),
-            ("Feature_Title", blocks.CharBlock(
-                max_lenght=500, required=True, blank=True, null=True)),
-            ("Feature_Text", blocks.CharBlock(
-                max_lenght=500, required=True, blank=True, null=True))
-        ]
+    features = blocks.StructBlock([
+        ("Feature_icon", ImageChooserBlock(
+            required=False, blank=True, null=True)),
+        ("Feature_Title", blocks.CharBlock(
+            max_lenght=500, required=True, blank=True, null=True)),
+        ("Feature_Text", blocks.CharBlock(
+            max_lenght=500, required=True, blank=True, null=True))
+    ]
     )
 
     link_group = blocks.ListBlock(
@@ -130,10 +135,9 @@ class HomePage(Page):
         blank=True,
     )
 
-    team_detail = StreamField(
-        [
-            ("member_card", member_card)
-        ],
+    team_detail = StreamField([
+        ("member_card", member_card)
+    ],
         null=True,
         blank=True,
 
