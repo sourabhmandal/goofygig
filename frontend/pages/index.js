@@ -8,10 +8,10 @@ import MoreButton from "../Components/MoreButton";
 import Stats from "../Components/Stats";
 import Navabar from "../Components/Navbar";
 
-export default function Home() {
+export default function Home({ navdata }) {
   return (
     <div className=" has-background-light">
-      <Navabar />
+      <Navabar props={navdata} />
       <Hero />
       <SectionTitle />
 
@@ -91,3 +91,10 @@ export default function Home() {
     </div>
   );
 }
+
+Home.getInitialProps = async () => {
+  const response = await fetch("http://127.0.0.1:8000/api/v2/pages/");
+  const data = await response.json();
+
+  return { navdata: data };
+};
