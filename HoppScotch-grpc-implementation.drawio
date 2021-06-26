@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T02:52:03.546Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UIloYSgFRo8pC1ZLHIrk" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T02:58:37.346Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qbdFObuYodszi91Qtrpi" version="14.8.1" type="github">
   <diagram id="4_v2aBuhESPP2Kse0YYt" name="Page-1">
-    <mxGraphModel dx="2364" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3371" dy="2166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -557,6 +557,9 @@
           <mxGeometry x="0.0757" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gpTQ6Xzm7yQLC2bLsHAh-156" value="WHATWG fetch spec to support gRPC for web" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-100" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
